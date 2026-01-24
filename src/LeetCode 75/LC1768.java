@@ -1,4 +1,4 @@
-class LC1768mergeStringsAlternately {
+class LC1768{
     public String mergeAlternately(String word1, String word2) {
         String merged="";
         int len1=word1.length();
@@ -21,7 +21,7 @@ class LC1768mergeStringsAlternately {
     }
 
     public static void main(String[] args){
-        LC1768mergeStringsAlternately obj=new LC1768mergeStringsAlternately();
+        LC1768 obj=new LC1768();
         String word1="abc";
         String word2="pqr";
         String merged=obj.mergeAlternately(word1,word2);
