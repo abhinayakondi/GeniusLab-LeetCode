@@ -4,7 +4,7 @@ class LC1768{
         int len1=word1.length();
         int len2=word2.length();
         int len= (len1>=len2)? len1 : len2;
-        int i,j;
+        int i;
         char c1='\u0000';
         char c2='\u0000';
         for(i=0;i<len;i++){
